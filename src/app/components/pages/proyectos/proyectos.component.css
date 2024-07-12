@@ -1,0 +1,49 @@
+.proyectos {
+  background: #353535;
+  z-index: 1;
+  border: 1px solid #10e956;
+  box-shadow: 0px 0px 30px rgba(29, 173, 29, 0.4);
+}
+
+.proyectos p {
+  font-size: 36px;
+  color: #10e956;
+}
+
+swiper-slide {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+swiper-slide img {
+  height: 70%;
+}
+
+.card {
+  width: 60%;
+}
+
+h2 {
+  color: #10e956;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+small {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .proyectos p {
+    font-size: 22px;
+  }
+
+  .card {
+    width: 80%;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+}

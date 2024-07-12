@@ -1,0 +1,28 @@
+ng-particles {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+body {
+  background: transparent;
+}
+
+.frase {
+  margin: 10rem auto 0 auto;
+  width: 70%;
+}
+
+.frase p {
+  font-size: 32px;
+}
+
+@media (max-width: 576px) {
+  .frase {
+    width: 80%;
+  }
+
+  .frase p {
+    font-size: 24px;
+  }
+}

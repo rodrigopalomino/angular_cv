@@ -1,0 +1,59 @@
+section {
+  margin-top: 15rem;
+}
+
+.herramientas {
+  width: 80%;
+}
+
+.proyectos {
+  background: #353535;
+  border: 1px solid #10e956;
+  box-shadow: 0px 0px 30px rgba(29, 173, 29, 0.4);
+  z-index: 1;
+}
+
+.proyectos p {
+  font-size: 36px;
+  color: #10e956;
+}
+
+.cj {
+  background: black;
+  height: fit-content;
+  padding: 0.5rem 1rem;
+}
+
+.cj img {
+  width: 40px;
+}
+
+.cj p {
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  section {
+    margin-top: 5rem;
+  }
+
+  .herramientas {
+    width: 90%;
+  }
+
+  .proyectos p {
+    font-size: 22px;
+  }
+
+  .cj {
+    width: 45%;
+  }
+
+  .cj img {
+    width: 35px;
+  }
+
+  .cj p {
+    font-size: 18px;
+  }
+}

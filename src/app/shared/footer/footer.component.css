@@ -1,0 +1,53 @@
+a {
+  text-decoration: none;
+}
+
+span {
+  font-size: 36px;
+}
+
+.github {
+  background: #333333;
+}
+
+.linkedlin {
+  background: #015684;
+}
+
+.whatsapp {
+  background: #00a884;
+}
+
+.email {
+  background: #0d8536;
+}
+
+.github:hover {
+  background: rgb(31, 30, 30);
+}
+
+.linkedlin:hover {
+  background: #024569;
+}
+
+.whatsapp:hover {
+  background: #027a60;
+}
+
+.email:hover {
+  background: #095f27;
+}
+
+footer span {
+  font-size: 24px;
+}
+
+@media (max-width: 576px) {
+  footer span {
+    font-size: 16px;
+  }
+
+  .email {
+    font-size: 20px;
+  }
+}

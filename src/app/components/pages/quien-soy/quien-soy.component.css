@@ -1,0 +1,38 @@
+section {
+  margin-top: 17rem;
+}
+
+h1 {
+  font-size: 58px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.informacion {
+  width: 45%;
+}
+
+.badge {
+  background: rgba(16, 233, 86, 0.4);
+  color: #10e956;
+}
+
+@media (max-width: 991px) {
+  section {
+    margin-top: 7rem;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .informacion {
+    width: 80%;
+  }
+  .imagen img {
+    width: 80%;
+    margin-top: 1rem;
+  }
+}

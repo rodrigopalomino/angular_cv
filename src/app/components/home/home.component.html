@@ -1,0 +1,34 @@
+<ng-particles
+  [id]="id"
+  [options]="particlesOptions"
+  [particlesInit]="particlesInit"
+  (particlesLoaded)="particlesLoaded($event)"
+></ng-particles>
+
+<body>
+  <app-navbar></app-navbar>
+
+  <div class="container-fluid container-lg">
+    <!-- seccion => quien soy -->
+    <app-quien-soy></app-quien-soy>
+
+    <!-- seccion => herramientas -->
+    <app-herramientas></app-herramientas>
+
+    <!-- seccion => proyectos -->
+    <app-proyectos></app-proyectos>
+
+    <!-- seccion => frase -->
+    <div class="frase text-white">
+      <p
+        class="rounded-3 px-5 py-3"
+        style="background: rgba(0, 0, 0, 0.5); border: 3px solid #0d8536"
+      >
+        Construyendo el futuro línea por línea: Explora mi universo de código en
+        mi portafolio de programación.
+      </p>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</body>
